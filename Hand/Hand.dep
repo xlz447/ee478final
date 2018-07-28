@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2464878258</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\flex_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\config\linker\lnk430f2274.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f2274.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\Source\delay.h</file>
+      <file>$PROJ_DIR$\Source\flex adc\flex_adc.c</file>
+      <file>$PROJ_DIR$\Source\flex adc\flex_adc.h</file>
+      <file>$PROJ_DIR$\Source\MyType.h</file>
+      <file>$PROJ_DIR$\Source\OLED_SSD1306\Fonts_SSD1306.h</file>
+      <file>$PROJ_DIR$\Source\OLED_SSD1306\Fonts_SSD1306.c</file>
+      <file>$PROJ_DIR$\Source\OLED_SSD1306\OLED_SSD1306.c</file>
+      <file>$PROJ_DIR$\Source\OLED_SSD1306\Picture_SSD1306.c</file>
+      <file>$PROJ_DIR$\Source\OLED_SSD1306\OLED_SSD1306.h</file>
+      <file>$PROJ_DIR$\Source\OLED_SSD1306\Picture_SSD1306.h</file>
+      <file>$PROJ_DIR$\Source\btUART\btUART.h</file>
+      <file>$PROJ_DIR$\Source\btUART\btUART.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\main.h</file>
+      <file>$PROJ_DIR$\Source\timer\timer.c</file>
+      <file>$PROJ_DIR$\Source\timer\timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\btUART.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\btUART.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\OLED_SSD1306.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\Hand.ulp</file>
+      <file>$PROJ_DIR$\Debug\Obj\Fonts_SSD1306.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Fonts_SSD1306.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Picture_SSD1306.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\OLED_SSD1306.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\OLED_SSD1306.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Picture_SSD1306.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Fonts_SSD1306.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\flex_adc.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Picture_SSD1306.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flex_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Exe\Hand.d43</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\flex adc\flex_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 5 3 46 20 15 14</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 14 5 3 46 20 15 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\OLED_SSD1306\Fonts_SSD1306.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 46 5 16 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 16 46 5 3 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\OLED_SSD1306\OLED_SSD1306.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 5 21 46 3 16 20</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 20 46 5 3 15 16 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\OLED_SSD1306\Picture_SSD1306.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 46 5 21 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 21 46 5 3 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\btUART\btUART.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 5 46 22</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 5 3 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 3 20 8 11 14 7 34 16 21 32 9 46 5 25 33 6 12 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 34 10 11 32 8 9 33 6 7 14 5 3 46 20 15 12 16 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\timer\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 5 3 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Hand.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4 44 37 1 35 42 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\timer\timer.c</name>
+      <tool>ICC430</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

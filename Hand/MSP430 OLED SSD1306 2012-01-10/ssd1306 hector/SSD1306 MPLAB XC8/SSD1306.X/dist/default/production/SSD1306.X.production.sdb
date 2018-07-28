@@ -1,0 +1,725 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K22 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v1.33\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v1.33\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"31 C:\Program Files\Microchip\xc8\v1.33\sources\common\abtofl.c
+[v ___abtofl __abtofl `(d  1 e 3 0 ]
+"33 C:\Program Files\Microchip\xc8\v1.33\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"36 C:\Program Files\Microchip\xc8\v1.33\sources\common\altofl.c
+[v ___altofl __altofl `(d  1 e 3 0 ]
+"42 C:\Program Files\Microchip\xc8\v1.33\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 C:\Program Files\Microchip\xc8\v1.33\sources\common\attofl.c
+[v ___attofl __attofl `(d  1 e 3 0 ]
+"37 C:\Program Files\Microchip\xc8\v1.33\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"31 C:\Program Files\Microchip\xc8\v1.33\sources\common\awtofl.c
+[v ___awtofl __awtofl `(d  1 e 3 0 ]
+"32 C:\Program Files\Microchip\xc8\v1.33\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"492 C:\Program Files\Microchip\xc8\v1.33\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"63 C:\Program Files\Microchip\xc8\v1.33\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files\Microchip\xc8\v1.33\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"49 C:\Program Files\Microchip\xc8\v1.33\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"4 C:\Program Files\Microchip\xc8\v1.33\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.33\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.33\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.33\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files\Microchip\xc8\v1.33\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"43 C:\Program Files\Microchip\xc8\v1.33\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.33\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"49 C:\Program Files\Microchip\xc8\v1.33\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 C:\Program Files\Microchip\xc8\v1.33\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.33\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 C:\Program Files\Microchip\xc8\v1.33\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files\Microchip\xc8\v1.33\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v1.33\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v1.33\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 C:\Program Files\Microchip\xc8\v1.33\sources\common\lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 3 0 ]
+"27 C:\Program Files\Microchip\xc8\v1.33\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"30 C:\Program Files\Microchip\xc8\v1.33\sources\common\lltofl.c
+[v ___lltofl __lltofl `(d  1 e 3 0 ]
+"35 C:\Program Files\Microchip\xc8\v1.33\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 C:\Program Files\Microchip\xc8\v1.33\sources\common\lttofl.c
+[v ___lttofl __lttofl `(d  1 e 3 0 ]
+"30 C:\Program Files\Microchip\xc8\v1.33\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 C:\Program Files\Microchip\xc8\v1.33\sources\common\lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 3 0 ]
+"28 C:\Program Files\Microchip\xc8\v1.33\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\asfladd.c
+[v ___asfladd __asfladd `(d  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\asfldiv.c
+[v ___asfldiv __asfldiv `(d  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\asflmul.c
+[v ___asflmul __asflmul `(d  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\asflsub.c
+[v ___asflsub __asflsub `(d  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\asftadd.c
+[v ___asftadd __asftadd `(f  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\asftdiv.c
+[v ___asftdiv __asftdiv `(f  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\asftmul.c
+[v ___asftmul __asftmul `(f  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\asftsub.c
+[v ___asftsub __asftsub `(f  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\aslmul.c
+[v ___aslmul __aslmul `(ul  1 e 4 0 ]
+"63 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi1open.c
+[v _OpenSPI1 OpenSPI1 `(v  1 e 0 0 ]
+"13 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi1writ.c
+[v _WriteSPI1 WriteSPI1 `(c  1 e 1 0 ]
+"18 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"17 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\my_delays.h
+[v _Delay_ms Delay_ms `(v  1 e 0 0 ]
+"24
+[v _Delay_us Delay_us `(v  1 e 0 0 ]
+"112 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\ssd1306.h
+[v _Oled_Init Oled_Init `(v  1 e 0 0 ]
+"148
+[v _Oled_Delay Oled_Delay `(v  1 e 0 0 ]
+"160
+[v _Oled_Reset Oled_Reset `(v  1 e 0 0 ]
+"172
+[v _Oled_Command Oled_Command `(v  1 e 0 0 ]
+"183
+[v _Oled_WriteRam Oled_WriteRam `(v  1 e 0 0 ]
+"196
+[v _Oled_SetPointer Oled_SetPointer `(v  1 e 0 0 ]
+"220
+[v _Oled_SetFont Oled_SetFont `(v  1 e 0 0 ]
+"236
+[v _Oled_WriteChar Oled_WriteChar `(v  1 e 0 0 ]
+"270
+[v _Oled_ConstText Oled_ConstText `(v  1 e 0 0 ]
+"288
+[v _Oled_Text Oled_Text `(v  1 e 0 0 ]
+"304
+[v _Oled_FillScreen Oled_FillScreen `(v  1 e 0 0 ]
+"322
+[v _Oled_Image Oled_Image `(v  1 e 0 0 ]
+"343
+[v _Right_HorizontalScroll Right_HorizontalScroll `(v  1 e 0 0 ]
+"355
+[v _Left_HorizontalScroll Left_HorizontalScroll `(v  1 e 0 0 ]
+"367
+[v _VerticalRight_HorizontalScroll VerticalRight_HorizontalScroll `(v  1 e 0 0 ]
+"378
+[v _VerticalLeft_HorizontalScroll VerticalLeft_HorizontalScroll `(v  1 e 0 0 ]
+"389
+[v _Deactivate_Scroll Deactivate_Scroll `(v  1 e 0 0 ]
+"393
+[v _Activate_Scroll Activate_Scroll `(v  1 e 0 0 ]
+"16 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\bitmap.h
+[v _truck_bmp truck_bmp `C[1024]uc  1 e 1024 0 ]
+"47 C:\Program Files\Microchip\xc8\v1.33\include\pic18f46k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"91
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"140
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"190
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"251
+[v _ANSELE ANSELE `VEuc  1 e 1 @3900 ]
+"6368
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"6654
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"6923
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"7232
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"7474
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+[s S67 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"8218
+[s S76 . 1 `uc 1 LD0 1 0 :1:0 
+]
+[s S78 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+]
+[s S81 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LD2 1 0 :1:2 
+]
+[s S84 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LD3 1 0 :1:3 
+]
+[s S87 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LD4 1 0 :1:4 
+]
+[s S90 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LD5 1 0 :1:5 
+]
+[s S93 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LD6 1 0 :1:6 
+]
+[s S96 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S99 . 1 `S67 1 . 1 0 `S76 1 . 1 0 `S78 1 . 1 0 `S81 1 . 1 0 `S84 1 . 1 0 `S87 1 . 1 0 `S90 1 . 1 0 `S93 1 . 1 0 `S96 1 . 1 0 ]
+[v _LATDbits LATDbits `VES99  1 e 1 @3980 ]
+"8404
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S27 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"8436
+[s S36 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S45 . 1 `S27 1 . 1 0 `S36 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES45  1 e 1 @3986 ]
+"8625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8846
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"8878
+[v _TRISCbits TRISCbits `VES45  1 e 1 @3988 ]
+"9067
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"9099
+[v _TRISDbits TRISDbits `VES45  1 e 1 @3989 ]
+"9288
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S174 . 1 `uc 1 TUN 1 0 :6:0 
+`uc 1 PLLEN 1 0 :1:6 
+`uc 1 INTSRC 1 0 :1:7 
+]
+"9423
+[s S178 . 1 `uc 1 TUN0 1 0 :1:0 
+`uc 1 TUN1 1 0 :1:1 
+`uc 1 TUN2 1 0 :1:2 
+`uc 1 TUN3 1 0 :1:3 
+`uc 1 TUN4 1 0 :1:4 
+`uc 1 TUN5 1 0 :1:5 
+]
+[u S185 . 1 `S174 1 . 1 0 `S178 1 . 1 0 ]
+[v _OSCTUNEbits OSCTUNEbits `VES185  1 e 1 @3995 ]
+[s S819 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"9849
+[s S827 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S832 . 1 `S819 1 . 1 0 `S827 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES832  1 e 1 @3998 ]
+"14693
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @4038 ]
+[s S625 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"14749
+[s S631 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S636 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKP1 1 0 :1:4 
+]
+[s S639 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SSPEN1 1 0 :1:5 
+]
+[s S642 . 1 `uc 1 SSPM01 1 0 :1:0 
+]
+[s S644 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+]
+[s S647 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 SSPM21 1 0 :1:2 
+]
+[s S650 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPM31 1 0 :1:3 
+]
+[s S653 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 SSPOV1 1 0 :1:6 
+]
+[s S656 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S659 . 1 `S625 1 . 1 0 `S631 1 . 1 0 `S636 1 . 1 0 `S639 1 . 1 0 `S642 1 . 1 0 `S644 1 . 1 0 `S647 1 . 1 0 `S650 1 . 1 0 `S653 1 . 1 0 `S656 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES659  1 e 1 @4038 ]
+"14972
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @4039 ]
+[s S383 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"15119
+[s S386 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S389 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S398 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S403 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S408 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S413 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S418 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S421 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S424 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S429 . 1 `uc 1 BF1 1 0 :1:0 
+]
+[s S431 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CKE1 1 0 :1:6 
+]
+[s S434 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DA 1 0 :1:5 
+]
+[s S437 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S440 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S443 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S446 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+]
+[s S449 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 I2C_START 1 0 :1:3 
+]
+[s S452 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 I2C_STOP 1 0 :1:4 
+]
+[s S455 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+]
+[s S458 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+]
+[s S461 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+]
+[s S464 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S467 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 START 1 0 :1:3 
+]
+[s S470 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 START1 1 0 :1:3 
+]
+[s S473 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 STOP 1 0 :1:4 
+]
+[s S476 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 STOP1 1 0 :1:4 
+]
+[s S479 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+]
+[s S482 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S485 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S488 . 1 `S383 1 . 1 0 `S386 1 . 1 0 `S389 1 . 1 0 `S398 1 . 1 0 `S403 1 . 1 0 `S408 1 . 1 0 `S413 1 . 1 0 `S418 1 . 1 0 `S421 1 . 1 0 `S424 1 . 1 0 `S429 1 . 1 0 `S431 1 . 1 0 `S434 1 . 1 0 `S437 1 . 1 0 `S440 1 . 1 0 `S443 1 . 1 0 `S446 1 . 1 0 `S449 1 . 1 0 `S452 1 . 1 0 `S455 1 . 1 0 `S458 1 . 1 0 `S461 1 . 1 0 `S464 1 . 1 0 `S467 1 . 1 0 `S470 1 . 1 0 `S473 1 . 1 0 `S476 1 . 1 0 `S479 1 . 1 0 `S482 1 . 1 0 `S485 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES488  1 e 1 @4039 ]
+"16020
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @4041 ]
+"16780
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"354 C:\Program Files\Microchip\xc8\v1.33\sources\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+"15 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\font.h
+[v _Terminal12x16 Terminal12x16 `C[2304]uc  1 e 2304 0 ]
+"116
+[v _Font_6x8 Font_6x8 `C[576]uc  1 e 576 0 ]
+"217
+[v _Segment_25x40 Segment_25x40 `C[1625]uc  1 e 1625 0 ]
+"80 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\ssd1306.h
+[v _font font `*.33Cuc  1 e 3 0 ]
+[v _font2 font2 `*.33Cuc  1 e 3 0 ]
+"81
+[v _width width `uc  1 e 1 0 ]
+[v _height height `uc  1 e 1 0 ]
+[v _min min `uc  1 e 1 0 ]
+[v _max max `uc  1 e 1 0 ]
+"18 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"20
+[v main@buffer2 buffer2 `[20]uc  1 a 20 34 ]
+"19
+[v main@i i `uc  1 a 1 54 ]
+"64
+} 0
+"492 C:\Program Files\Microchip\xc8\v1.33\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S370 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+"533
+[u S373 . 5 `ui 1 _val 2 0 `S370 1 _str 5 0 ]
+[v sprintf@_val _val `S373  1 a 5 25 ]
+"501
+[v sprintf@width width `i  1 a 2 31 ]
+"494
+[v sprintf@ap ap `[1]*.39v  1 a 2 22 ]
+"499
+[v sprintf@c c `c  1 a 1 33 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 30 ]
+"506
+[v sprintf@prec prec `c  1 a 1 24 ]
+"492
+[v sprintf@sp sp `*.39uc  1 p 2 12 ]
+[v sprintf@f f `*.32Cuc  1 p 2 14 ]
+"1550
+} 0
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 2 ]
+"15
+} 0
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 9 ]
+"26
+} 0
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"31
+} 0
+"343 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\ssd1306.h
+[v _Right_HorizontalScroll Right_HorizontalScroll `(v  1 e 0 0 ]
+{
+[v Right_HorizontalScroll@start_page start_page `uc  1 a 1 wreg ]
+[v Right_HorizontalScroll@start_page start_page `uc  1 a 1 wreg ]
+[v Right_HorizontalScroll@end_page end_page `uc  1 p 1 3 ]
+[v Right_HorizontalScroll@set_time set_time `uc  1 p 1 4 ]
+[v Right_HorizontalScroll@start_page start_page `uc  1 a 1 5 ]
+"353
+} 0
+"389
+[v _Deactivate_Scroll Deactivate_Scroll `(v  1 e 0 0 ]
+{
+"391
+} 0
+"393
+[v _Activate_Scroll Activate_Scroll `(v  1 e 0 0 ]
+{
+"395
+} 0
+"63 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi1open.c
+[v _OpenSPI1 OpenSPI1 `(v  1 e 0 0 ]
+{
+[v OpenSPI1@sync_mode sync_mode `uc  1 a 1 wreg ]
+[v OpenSPI1@sync_mode sync_mode `uc  1 a 1 wreg ]
+[v OpenSPI1@bus_mode bus_mode `uc  1 p 1 0 ]
+[v OpenSPI1@smp_phase smp_phase `uc  1 p 1 1 ]
+"65
+[v OpenSPI1@sync_mode sync_mode `uc  1 a 1 2 ]
+"136
+} 0
+"288 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\ssd1306.h
+[v _Oled_Text Oled_Text `(v  1 e 0 0 ]
+{
+"289
+[v Oled_Text@x_seg x_seg `uc  1 a 1 22 ]
+"288
+[v Oled_Text@buffer buffer `*.39uc  1 p 2 18 ]
+[v Oled_Text@seg seg `uc  1 p 1 20 ]
+[v Oled_Text@pag pag `uc  1 p 1 21 ]
+"296
+} 0
+"220
+[v _Oled_SetFont Oled_SetFont `(v  1 e 0 0 ]
+{
+[v Oled_SetFont@_font _font `*.32Cuc  1 p 2 8 ]
+[v Oled_SetFont@_width _width `uc  1 p 1 10 ]
+[v Oled_SetFont@_height _height `uc  1 p 1 11 ]
+[v Oled_SetFont@_min _min `uc  1 p 1 12 ]
+[v Oled_SetFont@_max _max `uc  1 p 1 13 ]
+"226
+} 0
+"8 C:\Program Files\Microchip\xc8\v1.33\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"8
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"42
+} 0
+"112 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\ssd1306.h
+[v _Oled_Init Oled_Init `(v  1 e 0 0 ]
+{
+"141
+} 0
+"160
+[v _Oled_Reset Oled_Reset `(v  1 e 0 0 ]
+{
+"165
+} 0
+"148
+[v _Oled_Delay Oled_Delay `(v  1 e 0 0 ]
+{
+"149
+[v Oled_Delay@i i `ui  1 a 2 1 ]
+"153
+} 0
+"304
+[v _Oled_FillScreen Oled_FillScreen `(v  1 e 0 0 ]
+{
+[v Oled_FillScreen@pattern pattern `uc  1 a 1 wreg ]
+"305
+[v Oled_FillScreen@i i `uc  1 a 1 9 ]
+[v Oled_FillScreen@j j `uc  1 a 1 8 ]
+"304
+[v Oled_FillScreen@pattern pattern `uc  1 a 1 wreg ]
+"306
+[v Oled_FillScreen@pattern pattern `uc  1 a 1 7 ]
+"314
+} 0
+"322
+[v _Oled_Image Oled_Image `(v  1 e 0 0 ]
+{
+"323
+[v Oled_Image@i i `uc  1 a 1 10 ]
+[v Oled_Image@j j `uc  1 a 1 9 ]
+"322
+[v Oled_Image@buffer buffer `*.32Cuc  1 p 2 7 ]
+"333
+} 0
+"270
+[v _Oled_ConstText Oled_ConstText `(v  1 e 0 0 ]
+{
+"271
+[v Oled_ConstText@x_seg x_seg `uc  1 a 1 22 ]
+"270
+[v Oled_ConstText@buffer buffer `*.32Cuc  1 p 2 18 ]
+[v Oled_ConstText@seg seg `uc  1 p 1 20 ]
+[v Oled_ConstText@pag pag `uc  1 p 1 21 ]
+"278
+} 0
+"236
+[v _Oled_WriteChar Oled_WriteChar `(v  1 e 0 0 ]
+{
+[v Oled_WriteChar@c c `uc  1 a 1 wreg ]
+"237
+[v Oled_WriteChar@j j `ui  1 a 2 16 ]
+[v Oled_WriteChar@i i `ui  1 a 2 13 ]
+"238
+[v Oled_WriteChar@x_seg x_seg `uc  1 a 1 15 ]
+[v Oled_WriteChar@y_pag y_pag `uc  1 a 1 12 ]
+"236
+[v Oled_WriteChar@c c `uc  1 a 1 wreg ]
+[v Oled_WriteChar@seg seg `uc  1 p 1 7 ]
+[v Oled_WriteChar@pag pag `uc  1 p 1 8 ]
+"239
+[v Oled_WriteChar@c c `uc  1 a 1 11 ]
+"260
+} 0
+"15 C:\Program Files\Microchip\xc8\v1.33\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"183 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\ssd1306.h
+[v _Oled_WriteRam Oled_WriteRam `(v  1 e 0 0 ]
+{
+[v Oled_WriteRam@dat dat `uc  1 a 1 wreg ]
+[v Oled_WriteRam@dat dat `uc  1 a 1 wreg ]
+[v Oled_WriteRam@dat dat `uc  1 a 1 2 ]
+"187
+} 0
+"196
+[v _Oled_SetPointer Oled_SetPointer `(v  1 e 0 0 ]
+{
+[v Oled_SetPointer@seg seg `uc  1 a 1 wreg ]
+"197
+[v Oled_SetPointer@hig_column hig_column `uc  1 a 1 6 ]
+[v Oled_SetPointer@low_column low_column `uc  1 a 1 4 ]
+"196
+[v Oled_SetPointer@seg seg `uc  1 a 1 wreg ]
+[v Oled_SetPointer@pag pag `uc  1 p 1 3 ]
+"198
+[v Oled_SetPointer@seg seg `uc  1 a 1 5 ]
+"206
+} 0
+"172
+[v _Oled_Command Oled_Command `(v  1 e 0 0 ]
+{
+[v Oled_Command@cmd cmd `uc  1 a 1 wreg ]
+[v Oled_Command@cmd cmd `uc  1 a 1 wreg ]
+[v Oled_Command@cmd cmd `uc  1 a 1 2 ]
+"176
+} 0
+"13 C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi1writ.c
+[v _WriteSPI1 WriteSPI1 `(c  1 e 1 0 ]
+{
+[v WriteSPI1@data_out data_out `uc  1 a 1 wreg ]
+"15
+[v WriteSPI1@TempVar TempVar `uc  1 a 1 0 ]
+"13
+[v WriteSPI1@data_out data_out `uc  1 a 1 wreg ]
+"16
+[v WriteSPI1@data_out data_out `uc  1 a 1 1 ]
+"26
+} 0
+"17 C:\Users\ofelia\Desktop\PROJECTS PICS\ZIP FILES\SSD1306 MPLAB XC8\SSD1306.X\my_delays.h
+[v _Delay_ms Delay_ms `(v  1 e 0 0 ]
+{
+"18
+[v Delay_ms@data_ms1 data_ms1 `ui  1 a 2 3 ]
+"17
+[v Delay_ms@data_ms data_ms `ui  1 p 2 0 ]
+"22
+} 0
